@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import { CallbackHook } from './componets/06-memos/CallbackHook';
 //import { Padre } from './componets/07-tarea-memo/Padre';
-import { TodoApp } from './componets/08-useReducer/TodoApp';
+// import { TodoApp } from './componets/08-useReducer/TodoApp';
+import { MainApp } from './componets/09-useContext/MainApp';
 //import { MemoHook } from './componets/06-memos/MemoHook';
 //import { FocusScreen } from './componets/04-useRef/FocusScreen';
 //import { RealExampleRef } from './componets/04-useRef/RealExampleRef';
@@ -17,9 +18,7 @@ import { TodoApp } from './componets/08-useReducer/TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="container">
-      <TodoApp />
-    </div>
+    <MainApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
